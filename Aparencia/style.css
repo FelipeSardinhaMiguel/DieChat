@@ -1,0 +1,31 @@
+.header {
+    background-color: #3b0d0d;
+    padding: 20px; 
+    text-align: center;
+}
+
+.header h1 {
+    color: #fff;
+    font-size: 36px;
+    margin: 0;
+}
+
+.header p {
+    color: #fff;
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+.main {
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome {
+     font-size: 12px;
+     margin-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+}
