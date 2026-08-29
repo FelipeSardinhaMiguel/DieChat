@@ -1,25 +1,34 @@
 <!doctype html>
 <html lang="pt-BR">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DieChat - Chat</title>
-    <link rel="stylesheet" href="/DieChat/Aparencia/style.css" />
+    <link rel="stylesheet" href="../Aparencia/chat.css" /> <!--link para as classes do css especifico do chat-->
+    <!--<link rel="stylesheet" href="../Aparencia/style.css" /> link para o css global (body, texto, etc)-->
   </head>
-  <body class="body">
 
-    <header class="header">
+  <body class="body">
+    
+    <header class="chatheader">
       <div>
-        <button class="botaovoltar"  onclick="window.history.back()">Voltar</button>
+        <button class="botaoconfig" onclick="window.location.href='/DieChat/Abas/config.html'"><img class="botaoconfig" src="/DieChat/Img/config.png" alt="Config"></button>
+        <button class="botaohead" onclick="window.location.href='/DieChat/Abas/Perfil.html'">Perfil</button>
       </div>
     </header>
-        
-    <main class="main">
 
-
-
+    <div class="chatbox" id="areaMensagens">
+     <div class="chattext">
+        <form id="chatForm" class="chat-form">
+         <input class="chat-input" type="text" id="inputMensagem" placeholder="Digite sua mensagem..." required />
+         <button type="submit" class="botaoenviar">Enviar</button>
+      </form>
+     </div>
+    </div>
 
 
     </main>
+    <script src="/Jav/script.js"></script>
   </body>
 </html>
