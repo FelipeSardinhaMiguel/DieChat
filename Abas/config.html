@@ -1,42 +1,46 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/DieChat/Aparencia/style.css" />
+    <link rel="stylesheet" href="../Aparencia/style.css" />
+    <link rel="stylesheet" href="../Aparencia/config.css" />
     <title>Configurações - DieChat</title>
   </head>
-  <body class="body">
+  <body>
     <header>
       <div>
-        <h1 class="titulo-h1">DieChat</h1>
+        <h1><span class="Die">Die</span><span class="Chat">Chat</span></h1>
         <hr />
-        <h2>Configurações do DieChat</h2>
+        <p>Configurações do DieChat</p>
+        <button class="botaovoltar" onclick="window.location.href='../Abas/lobby.html'">Voltar</button>
       </div>
     </header>
-    <div>
-      <button class="botaovoltar"  onclick="window.history.back()">Voltar</button>
-    </div>
+
 
     <div class="config-options">
-      <a href="../Abas/dtconfig/conta.html" class="botao-config"
-        ><button>Ver Conta</button></a>
+      <button class="botao" onclick="window.location.href='../Abas/dtconfig/conta.html'">Ver Conta</button>
       <br/>
-      <a href="../Abas/dtconfig/privaci.html" class="botao-config"
-        ><button>Ver Privacidade</button></a>
-      <br/>
-      <a href="../Abas/dtconfig/segu.html" class="botao-config"
-        ><button>Ver Segurança</button></a>
-      <br/>
-      <a href="../Abas/dtconfig/creditos.html" class="botao-config"
-        ><button>Ver Créditos</button></a>
-      <br/>
-      <a href="../Abas/dtconfig/acessi.html" class="botao-config"
-        ><button>Ver Acessibilidade</button></a>
-      
 
+      <button class="botao" onclick="window.location.href='../Abas/dtconfig/privaci.html'">Ver Privacidade</button>
       <br/>
+
+      <button class="botao" onclick="window.location.href='../Abas/dtconfig/segu.html'">Ver Segurança</button>
       <br/>
+
+      <button class="botao" onclick="window.location.href='../Abas/dtconfig/creditos.html'">Ver Créditos</button>
+      <br/>
+
+      <button class="botao" onclick="window.location.href='../Abas/dtconfig/acessi.html'">Ver Acessibilidade</button>
     </div>
+
+    <br>
+
+    <!--FOOTER -->
+    <footer>
+      <div>
+        <p><b><span class="Die">Die</span><span class="Chat">Chat</span> - 2026</b> | Esse site é para fins de estudos e não representa uma plataforma comercial real.</p>
+      </div>
+    </footer>
   </body>
 </html>

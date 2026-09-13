@@ -1,49 +1,46 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DieChat - Conecte-se</title>
-    <link rel="stylesheet" href="/DieChat/Aparencia/style.css" />
+    <link rel="stylesheet" href="../Aparencia/style.css" />
+    <link rel="stylesheet" href="../Aparencia/lobby.css" />
+    <link rel="shortcut icon" href="../Img/DieLogo.jpeg" type="image/x-icon">
   </head>
-  <body class="body">
+  <body>
+
     <!-- CABEÇALHO -->
-    <header class="header">
+    <header>
       <div>
-        <h1 class="titulo-h1">DieChat</h1>
-        <p>Conecte-se com amigos e familiares</p><!-- Aqui vou nao sei muito oq vamos fazer -->
+        <h1><span class="Die">Die</span><span class="Chat">Chat</span></h1>
+        <hr>
+        <p>Mensagens para o pós vida</p><!-- Aqui vou nao sei muito oq vamos fazer -->
       </div>
     </header>
 
-    <main class="main">
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
       <div class="welcome">
         <div>
-          <a href="../Abas/chat.html" class="option">
-            <button class="botaomenu">Entrar no Chat</button></a><!-- Esses foram os links que a ia recomendou, mas nao sei se vamos proseguir com essa ideia -->
-            
-          <a href="../Abas/config.html" class="option"
-            ><button class="botaomenu">Configurações</button></a>
+          <button class="botao" onclick="window.location.href='../Abas/chat.html'">Entrar no Chat</button>
+          
+          <button class="botao" onclick="window.location.href='../Abas/config.html'">Configurações</button>
         </div>
 
         <h2>Bem-vindo(a) ao DieChat!</h2>
         <p>
-          AVISO: esse projeto trata de forma humorista uma homenagens aos
+          <b>AVISO:</b> esse projeto trata de forma humorista uma homenagens aos
           falecidos, ja que na vida nao se leva nada, entao devemos sorrir e
           cantar!
         </p>
       </div>
-
-      
-
-
     </main>
 
+    <!--FOOTER -->
     <footer>
       <div>
-        <p>
-          <b>DieChat - 2026</b> | Esse site é para fins de estudos e não representa uma
-          plataforma comercial real.
-        </p>
+        <p><b><span class="Die">Die</span><span class="Chat">Chat</span> - 2026</b> | Esse site é para fins de estudos e não representa uma plataforma comercial real.</p>
       </div>
     </footer>
   </body>
